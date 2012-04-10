@@ -1,16 +1,25 @@
+
+body {
+	background:url(bg.jpeg) fixed;
+}
+
 #container
 {
 	margin: 0 30px;
-	background: #fff;
 }
 
 #header
 {
-	background: #ccc;
 	padding: 20px;
+
 }
 
-#header h1 { margin: 0; }
+#header h1 { 
+	margin: 0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:50px;
+	color:#fff;
+ }
 
 #navigation
 {
@@ -45,6 +54,7 @@
 
 #edito
 {
+	
 	clear: left;
 	padding: 20px;
 	margin: 20px;
@@ -52,19 +62,24 @@
 	border-radius: 18px;
 	-webkit-box-shadow: 0px 0px 6px #000000;
 	box-shadow: 0px 0px 6px #000000;
+	background:#fff;
 	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
 	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
 	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
-	opacity: 0.83;
 }
 
 #edito h2
 {
-	color: #000;
-	font-size: 160%;
+	color: #07336B;
+	font-size: 230%;
+	font-weight:bolder;
 	margin: 0 0 .5em;
+}
+
+#edito p {
+	font-family:Arial, Helvetica, sans-serif;
 }
 
 #news
@@ -82,7 +97,11 @@
 	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
-	opacity: 0.83;
+	background:#fff;
+}
+
+#news p, #news a {
+	font-family:Arial, Helvetica, sans-serif;
 }
 
 #footer
